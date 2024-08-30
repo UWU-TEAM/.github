@@ -80,4 +80,3 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://lecoq.io
-          repositories_forks: yes
