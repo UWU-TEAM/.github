@@ -34,9 +34,6 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
-          plugin_anilist: yes
-          plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 22
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_habits: yes
@@ -75,4 +72,6 @@ jobs:
           plugin_topics_sort: stars
           plugin_traffic: yes
           repositories_forks: yes
-          
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
