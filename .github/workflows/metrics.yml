@@ -14,20 +14,10 @@ jobs:
       - name: Metrics Anilist
         uses: lowlighter/metrics@v3.34
         with:
-          filename: metrics.plugin.anilist.characters.svg
+          filename: metrics.plugin.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
-          plugin_anilist: yes
-          plugin_anilist_limit: 2
-          plugin_anilist_limit_characters: 22
-          plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: characters
-          plugin_anilist_shuffle: yes
-          plugin_anilist_user: .user.login
+          plugin_calendar: yes
 
       - name: Metrics embed
         uses: lowlighter/metrics@v3.34
@@ -82,7 +72,7 @@ jobs:
           plugin_reactions_limit_issues: 100
           plugin_stargazers: yes
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 10
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred
