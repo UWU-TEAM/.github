@@ -20,8 +20,4 @@
   </td>
 </tr>
 <tr>
-  <td>
-    <img src="https://github.com/UWU-TEAM/.github/blob/main/metrics.plugin.calendar.svg" alt="Metrics" width="100%">
-  </td>
-</tr>
 </table>

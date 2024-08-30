@@ -11,14 +11,6 @@ jobs:
       contents: write
 
     steps:
-      - name: Metrics Anilist
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: metrics.plugin.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          config_timezone: Asia/Jakarta
-          plugin_calendar: yes
-
       - name: Metrics embed
         uses: lowlighter/metrics@v3.34
         with:
@@ -70,9 +62,9 @@ jobs:
           plugin_reactions_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
           plugin_reactions_limit: 200
           plugin_reactions_limit_issues: 100
-          plugin_stargazers: yes
-          plugin_stars: yes
-          plugin_stars_limit: 10
+#          plugin_stargazers: yes
+#          plugin_stars: yes
+#          plugin_stars_limit: 10
 #          plugin_topics: yes
 #          plugin_topics_limit: 15
 #          plugin_topics_mode: starred
