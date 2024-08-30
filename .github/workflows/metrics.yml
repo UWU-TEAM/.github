@@ -74,12 +74,11 @@ jobs:
           repositories_forks: yes
 
       - name: Anime characters
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.anilist.characters.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_anilist: yes
-          plugin_anilist_user: .jarbull86@gmail.com.untoklorok
           plugin_anilist_sections: characters
           plugin_anilist_limit_characters: 22
