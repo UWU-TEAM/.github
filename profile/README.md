@@ -1,5 +1,10 @@
 <img src="https://telegra.ph/file/8c8d914d2d1c615fc30eb.jpg">
 <table>
+<tr>
+  <td>
+    <img src="https://github.com/UWU-TEAM/.github/blob/main/metrics.plugin.anilist.characters.svg" alt="Metrics" width="100%">
+  </td>
+</tr>
   <tr>
     <td align=center>
       <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FUWU-TEAM&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false">

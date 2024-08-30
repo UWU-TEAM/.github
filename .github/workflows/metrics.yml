@@ -72,6 +72,13 @@ jobs:
           plugin_topics_sort: stars
           plugin_traffic: yes
           repositories_forks: yes
+
+      - name: Anime characters
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.anilist.characters.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_anilist: yes
           plugin_anilist_sections: characters
           plugin_anilist_limit_characters: 22
