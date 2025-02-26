@@ -1,7 +1,6 @@
 name: Metrics
 on:
   workflow_dispatch:
-  push: {branches: ["main"]}
 
 jobs:
   github-metrics:
@@ -77,4 +76,4 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://lecoq.io
+          plugin_pagespeed_url: https://github.com/UWU-TEAM
