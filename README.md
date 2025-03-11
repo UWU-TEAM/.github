@@ -16,7 +16,7 @@
 </tr>
 <tr>
   <td>
-    <img src="https://github.com/UWU-TEAM/.github/blob/main/github-metrics.svg" width="100%"  align="top" alt="🦀" height="100%" />
+    <img src="https://github.com/UWU-TEAM/.github/blob/main/github-metrics.svg" width="100%"  align="top" alt="🦀" />
   </td>
 </tr>
 <tr>
